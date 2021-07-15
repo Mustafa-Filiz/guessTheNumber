@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <p class="explains">Guess the number randomly chosen for you between 1 and 100. You have 10 rights to find the correct number.</p>
+    <img src="./img/Question-Mark.png" alt="questionMark">
+
+    <form action="#">
+        <label for="guessArea">Make your guess:</label>
+        <br><br>
+        <input type="number" name="guessArea" id="guessArea">
+        <input type="submit" value="Check" onclick="checkGuess()" id="guessCheck">
+    </form>
+
+    <div class="result">
+        <p class="guesses"></p><br>
+        <p class="lastResult"></p><br>
+        <p class="lowOrHigh"></p>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

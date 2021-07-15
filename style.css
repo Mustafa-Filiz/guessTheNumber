@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    color: yellowgreen;
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    background: rgb(55,11,138);
+    background: linear-gradient(120deg, rgba(55,11,138,1) 0%, rgba(9,32,121,1) 20%, rgba(0,212,255,1) 100%);    
+}
+
+h1 {
+    margin: 3% auto;
+    color: yellowgreen;
+}
+
+.explains{
+    margin: 2% auto;
+}
+
+#guessArea{
+    padding: 0.5%;
+}
+
+#guessCheck{
+    padding: 0.5% 1%;
+    cursor: pointer;
+    background-color: #C61881;
+}
+
+img{
+    width: 10%;
+}
